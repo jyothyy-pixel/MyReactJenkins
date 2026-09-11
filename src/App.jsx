@@ -4,7 +4,7 @@ import "./App.css";
 
 const App = () => {
   const {t} = useTranslation();
-  const {line1, line2} = t("description", {channel: "Gopu"});
+  const {line1, line2} = t("description", {channel: "Cyber"});
 
   return (
     <div className="container">
